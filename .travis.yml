@@ -7,3 +7,5 @@ before_install:
 - docker build -t thomas/node-web-app .
 - docker run  -p 3000:3000 -d thomas/node-web-app
 
+script:
+- npm install 
